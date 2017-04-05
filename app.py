@@ -1,13 +1,12 @@
 from flask import Flask, render_template
 from flask_cors import CORS
-import json
+import simplejson as json
 
 app = Flask(__name__)
 CORS(app)
 
 @app.route('/', methods=['GET'])
 def root():
-    # get ip address from arg
     return render_template('index.html', ip='127.0.0.1')
 
 @app.route('/data', methods=['GET'])
