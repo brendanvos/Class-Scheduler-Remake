@@ -1,0 +1,105 @@
+table{
+    margin: 2%;
+    clear: both;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+#content{
+    margin: 2%;
+}
+
+li.edit:hover{
+    cursor: pointer;
+}
+
+.buttons{
+    height: 75px;
+}
+
+li.edit .glyphicon{
+    margin-left: 5%;
+}
+
+h4.toggle{
+    height: 35px;
+}
+
+h4.toggle:hover, .list-add:hover{
+    cursor: pointer;
+}
+
+#teacher-count-table input{
+    width: 30%;
+    margin-right: 5%;
+}
+
+td{
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.results .error{
+    text-align: center;
+    padding: 5%;
+}
+
+th{
+    text-align: center;
+}
+
+th[scope='row']{
+    width: 10%;
+    padding-right: 1%;
+}
+
+.confirm-changes{
+    width: 200px;
+    left: 10%;
+    height: 35px;
+    position: absolute;
+}
+
+.reset-data{
+    width: 200px;
+    right: 10%;
+    height: 35px;
+    position: absolute;
+}
+
+.confirm{
+    width: 200px;
+    left: 75%;
+    top: 40px;
+    position: relative;
+}
+
+.table-cell:hover{
+    cursor: pointer;
+}
+
+button{
+    position: relative;
+    left: 44%;
+}
+
+ul.input{
+	width: 25%;
+	float: left;
+}
+
+li{
+	list-style-type: none;
+}
+
+div{
+	clear: both;
+}
+
+.data-lists{
+    width: 100%;
+}
