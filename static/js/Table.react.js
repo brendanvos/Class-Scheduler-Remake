@@ -53,7 +53,7 @@ var Table = React.createClass({
                     this.onClick(row, column);
                 }.bind(this);
                 return(
-                    <DataCell key={column+row} status={this.state.statuses[column + row]!=null ? this.state.statuses[column + row] : null} onClick={click}/>
+                    <DataCell column={column} row={row} status={this.state.statuses[column + row]} onClick={click}/>
                 );
             }.bind(this));
             return(

@@ -15,7 +15,7 @@ var DataCell = React.createClass({
                 break;
         }
         return (
-            <td className="table-cell" key={this.props.key} onClick={this.props.onClick} status={this.props.status}>
+            <td className="table-cell" key={this.props.column+this.props.row} onClick={this.props.onClick} status={this.props.status}>
                 {content}
             </td>
         );
